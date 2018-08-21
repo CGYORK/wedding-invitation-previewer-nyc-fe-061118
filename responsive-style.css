@@ -1,7 +1,61 @@
+@media only screen and (min-width: 1440px) {
+  .wrapper {
+    width: 1260px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+    .static-content{
+      font-size: 1.5vh;
+    }
+    .dynamic-content {
+      font-size: 2.5vh;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+      .static-content{
+      font-size: 1.5vh;
+    }
+    .dynamic-content {
+      font-size: 2.5vh;
+    }  
+}
+
 @media only screen and (max-width: 750px) {
- .wrapper {
+.gridcontainer {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
  } 
+ 
+ h1 {
+    font-size: 1em;
+  }
+     
+  .static-content{
+      font-size: 1.5vh;
+    }
+  .dynamic-content {
+      font-size: 2.5vh;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+.gridcontainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+ } 
+ 
+ h1 {
+    font-size: 1em;
+  }
+     
+  .static-content{
+      font-size: 1vh;
+    }
+  .dynamic-content {
+      font-size: 2vh;
+  }
 }
